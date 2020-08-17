@@ -1,0 +1,3 @@
+Simple function to convert from optical depth to geometric height and column mass (all units CGS). This approach uses the Wittmann equation of state ported to python by J. de la Cruz Rodriguez, taken from [here](https://github.com/jaimedelacruz/witt). This EOS is used in the [Lightweaver RT framework](https://github.com/Goobley/Lightweaver), is one of the options in the [NICOLE](https://github.com/hsocasnavarro/NICOLE) inversion code, and also used in the [SIR](https://github.com/BasilioRuiz/SIR-code) inversion code.
+
+This EOS assumes that all elements are in LTE, and considers  but is simple and relatively fast.
